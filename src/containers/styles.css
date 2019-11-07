@@ -1,0 +1,66 @@
+:root {
+  --black: black;
+  --light-gray: rgb(200, 200, 200);
+  --white: white;
+}
+
+.container {
+  margin: 2em 25% 0 25%;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 2em;
+}
+.header h1,
+.header h4 {
+  margin: 0;
+}
+.header .rating {
+  margin: 0;
+  color: var(--black);
+}
+.quiz-text {
+  text-align: left;
+  margin-bottom: 3em;
+}
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.btn-group button {
+    width: 200px;
+    margin-bottom: 2em;
+    border: 1px solid var(--black);
+    color: var(--black);
+    background-color: var(--light-gray);
+}
+
+.btn-group button:hover {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.bottomBar {
+  display: block;
+  height: 30px;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+  
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.progress-text {
+  margin-top: 8em;
+  display: flex;
+  justify-content: space-between  ;
+  flex-direction: row;
+  color: black;
+}
